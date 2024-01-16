@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tarot-331d9"
+  },
+  "targets": {
+    "tarot-331d9": {
+      "hosting": {
+        "tarot-331d9": [
+          "tarot-331d9"
+        ]
+      }
+    }
+  }
+}
