@@ -1,6 +1,6 @@
 const functions = require('firebase-functions')
 const admin = require('firebase-admin')
-const stripe = require('stripe')('sk_test_51HdlDPCE2YsnFpa1c9SDrEcVDDpQbKwnEYdiV9PKXElpXW5b1rkdGBpH6A1RX6Qj9aHzCyWLF9tYBGlZxjZSaeUS00O99y0edf')
+const stripe = require('stripe')(process.env.REACT_APP_STRIPE_SECRET_KEY)
 
 admin.initializeApp()
 
